@@ -1,8 +1,12 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import SearchRecipe from './components/SearchRecipe';
+import SearchButton from './components/SearchButton';
+
 
 function App() {
+
   return (
     <div className="App">
       <header className="App-header">
@@ -10,6 +14,8 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
+        <SearchButton />
+        <SearchRecipe />
         <a
           className="App-link"
           href="https://reactjs.org"
